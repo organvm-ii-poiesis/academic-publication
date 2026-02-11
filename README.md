@@ -196,7 +196,7 @@ ORGAN-I (`organvm-i-theoria`) provides the theoretical foundations that academic
 
 ### Key Theoretical Sources
 
-- **[`recursive-engine`](https://github.com/organvm-i-theoria/recursive-engine)** — The core theoretical framework for recursion, self-reference, and metasystem transitions. Papers on recursive generative architectures will cite and extend the formalism developed here. The recursive-engine provides the vocabulary (fixed points, strange loops, self-modeling systems) that academic papers translate into domain-specific terminology for each target venue.
+- **[`recursive-engine`](https://github.com/organvm-i-theoria/recursive-engine--generative-entity)** — The core theoretical framework for recursion, self-reference, and metasystem transitions. Papers on recursive generative architectures will cite and extend the formalism developed here. The recursive-engine provides the vocabulary (fixed points, strange loops, self-modeling systems) that academic papers translate into domain-specific terminology for each target venue.
 
 - **Ontological primitives** — ORGAN-I's ontological work (identity, boundaries, emergence) provides the philosophical grounding for papers that ask what it means for a generative system to "create" or for an audience to "participate." These are not merely rhetorical questions — they have design implications that are documented in the papers housed here.
 
