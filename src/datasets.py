@@ -7,10 +7,8 @@ with structured metadata, versioning, and access tracking.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any
+
 from uuid import uuid4
-
-
 @dataclass
 class Dataset:
     """A research dataset with metadata."""
@@ -24,8 +22,6 @@ class Dataset:
     license: str = "CC-BY-4.0"
     tags: list[str] = field(default_factory=list)
     linked_publications: list[str] = field(default_factory=list)
-
-
 class DatasetCatalog:
     """Catalog of research datasets with metadata and linking.
 
