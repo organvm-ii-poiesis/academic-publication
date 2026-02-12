@@ -7,8 +7,6 @@ relationships between publications.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any
-
 
 @dataclass
 class CitationEdge:
@@ -17,8 +15,6 @@ class CitationEdge:
     citing_id: str
     cited_id: str
     context: str  # The sentence or paragraph where the citation appears
-
-
 class CitationGraph:
     """Directed graph of citation relationships between publications.
 
