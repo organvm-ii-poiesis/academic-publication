@@ -8,10 +8,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
-from typing import Any
+
 from uuid import uuid4
-
-
 @dataclass
 class Publication:
     """Represents a single academic publication."""
@@ -25,8 +23,6 @@ class Publication:
     abstract: str = ""
     keywords: list[str] = field(default_factory=list)
     created_at: str = ""
-
-
 class PublicationManager:
     """Manages a collection of academic publications.
 
