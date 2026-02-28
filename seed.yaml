@@ -9,6 +9,8 @@ project:
     org: omni-dromenon-machina
     type: generic
     role: architect/core
+metadata:
+  promotion_status: CANDIDATE
 architecture:
   tech_stack: []
 automation_contract:
